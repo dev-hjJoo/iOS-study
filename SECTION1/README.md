@@ -10,3 +10,4 @@
 * 1-8. 테이블 뷰를 이용한 트위터 앱 제작 /Twitter Application (using table view)
 * 1-9. 코어 데이터 /core data
 * 1-10. 코어 데이터를 이용한 트위터 앱 /Twitter Application (contain core-data)
+## Unit2. 야곰의 iOS 프로그래밍
