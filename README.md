@@ -10,7 +10,6 @@
 </pre>
 ## Section0. 기본 배경 지식
 * [0-1] git wiki 마크다운 사용법: [ihoneymon님 github](https://gist.github.com/ihoneymon/652be052a0727ad59601)
-## Section1. Swift 문법
+## Section1. Swift 문법을 이용한 iOS 제작 실습
 * [1-1] 인프런: [Stanford iOS 한글자막 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/dashboard)
-## Section2. iOS 제작 실습
-* [2-1] 인프런: [야곰의 iOS 프로그래밍](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard)
+* [1-2] 인프런: [야곰의 iOS 프로그래밍](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard)
