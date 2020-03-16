@@ -58,21 +58,13 @@
 			children = (
 				8727D928241BCC1000261165 /* ViewController.swift */,
 				8727D92A241BCC1000261165 /* Main.storyboard */,
-				8727D938241BD7CB00261165 /* Supporting Files */,
-			);
-			path = "1-Calculator";
-			sourceTree = "<group>";
-		};
-		8727D938241BD7CB00261165 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
 				8727D924241BCC1000261165 /* AppDelegate.swift */,
 				8727D926241BCC1000261165 /* SceneDelegate.swift */,
 				8727D92D241BCC1200261165 /* Assets.xcassets */,
 				8727D92F241BCC1200261165 /* LaunchScreen.storyboard */,
 				8727D932241BCC1200261165 /* Info.plist */,
 			);
-			path = "Supporting Files";
+			path = "1-Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
