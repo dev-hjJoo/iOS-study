@@ -11,3 +11,5 @@
 * 1-9. 코어 데이터 /core data
 * 1-10. 코어 데이터를 이용한 트위터 앱 /Twitter Application (contain core-data)
 ## Unit2. 야곰의 iOS 프로그래밍
+* 2-1. 웹 브라우저 제작하기
+* 2-2. 내 소개 애플리케이션
