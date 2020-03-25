@@ -46,3 +46,14 @@
 * Auto Layout 설정하기
 * H.I.G. 문서 정독하기
 * 야곰님 보충 자료 참고하기
+## 3번-프로젝트: Up-down Game
+### 학습 내용
+* <b>Command + Shift + o</b> 단축키를 이용하여 원하는 파일을 빠르게 열자!
+  * 그리고 <b>Option + Enter</b>를 누르면 Assistant Editor로 화면이 분할되어 보임!
+* 클래스(Class)와 인스턴스(Instance), 객체(Object) 개념 확실히 정리하기
+  * 이번에는 노션 아니라 [티스토리](https://hyoz-dev-diary.tistory.com/entry/3-%EC%B0%90%ED%9A%A8%EB%8A%94-%EC%A7%80%EA%B8%88-%EC%95%BC%EA%B3%B0%EB%8B%98-%EA%B0%95%EC%9D%98-%EB%93%A3%EB%8A%94-%EC%A4%91-%EB%B6%80%EC%A0%9C-%ED%81%B4%EB%9E%98%EC%8A%A4%EA%B0%9D%EC%B2%B4%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4)에 기록했삼!
+* 스토리보드의 인스턴스들을 View 코드에 연결하기 (@IBOultet, @IBAction)
+* Gesture Recognizer
+  * 입력 창을 눌러 키보드가 올라왔을 때 화면을 눌러 키보드를 내려가게 한 경험! 그 때 사용하는 기능!
+  * 사용자에게 당연한 것이 누군가의 피땀눈물..
+  * 제스처를 어떻게 사용하는 지는 H.I.G 문서의 gesture 파트 참고하기
