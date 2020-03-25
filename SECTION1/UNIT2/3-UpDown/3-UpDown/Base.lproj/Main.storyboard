@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="__UpDown" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="occ-bk-pt8">
+                                <rect key="frame" x="16" y="60" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WYm-t5-nbK">
+                                <rect key="frame" x="356" y="60" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kvv-dt-8jc">
+                                <rect key="frame" x="16" y="131" width="382" height="30"/>
+                                <state key="normal" title="제출"/>
+                                <connections>
+                                    <action selector="touchUpSubmitButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iLA-nH-DTQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wzT-AX-EVc">
+                                <rect key="frame" x="16" y="169" width="382" height="30"/>
+                                <state key="normal" title="다시 시작">
+                                    <color key="titleColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="touchUpResetButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Em-Rg-p1i"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lfw-fC-C4K">
+                                <rect key="frame" x="16" y="89" width="382" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="lfw-fC-C4K" firstAttribute="leading" secondItem="occ-bk-pt8" secondAttribute="leading" id="4nl-7W-QXu"/>
+                            <constraint firstItem="Kvv-dt-8jc" firstAttribute="top" secondItem="lfw-fC-C4K" secondAttribute="bottom" constant="8" id="5M9-Hu-h2V"/>
+                            <constraint firstItem="occ-bk-pt8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="7bz-ET-XvJ"/>
+                            <constraint firstItem="wzT-AX-EVc" firstAttribute="top" secondItem="Kvv-dt-8jc" secondAttribute="bottom" constant="8" id="8y8-Zz-et8"/>
+                            <constraint firstItem="wzT-AX-EVc" firstAttribute="trailing" secondItem="Kvv-dt-8jc" secondAttribute="trailing" id="Afy-vV-J9j"/>
+                            <constraint firstItem="Kvv-dt-8jc" firstAttribute="leading" secondItem="lfw-fC-C4K" secondAttribute="leading" id="BOI-Hp-sr8"/>
+                            <constraint firstItem="Kvv-dt-8jc" firstAttribute="trailing" secondItem="lfw-fC-C4K" secondAttribute="trailing" id="Bgp-eN-QWZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WYm-t5-nbK" secondAttribute="trailing" constant="16" id="OA7-xG-7yJ"/>
+                            <constraint firstItem="lfw-fC-C4K" firstAttribute="top" secondItem="occ-bk-pt8" secondAttribute="bottom" constant="8" id="c1E-JS-5zS"/>
+                            <constraint firstItem="occ-bk-pt8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="guy-JW-UXc"/>
+                            <constraint firstItem="WYm-t5-nbK" firstAttribute="top" secondItem="occ-bk-pt8" secondAttribute="top" id="myI-qZ-XHX"/>
+                            <constraint firstItem="WYm-t5-nbK" firstAttribute="trailing" secondItem="lfw-fC-C4K" secondAttribute="trailing" id="pQh-2P-gvd"/>
+                            <constraint firstItem="wzT-AX-EVc" firstAttribute="leading" secondItem="Kvv-dt-8jc" secondAttribute="leading" id="q0o-Xh-zTa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="Uxu-Va-ygl" appends="YES" id="IIK-bw-Pk9"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="inputField" destination="lfw-fC-C4K" id="4tW-PO-fQa"/>
+                        <outlet property="resultLabel" destination="occ-bk-pt8" id="FO4-7f-O3F"/>
+                        <outlet property="turnCountLabel" destination="WYm-t5-nbK" id="cbC-OB-6Pj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Uxu-Va-ygl">
+                    <connections>
+                        <action selector="tapBackground:" destination="BYZ-38-t0r" id="JSy-WT-QYp"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="114.50892857142857"/>
+        </scene>
+    </scenes>
+</document>
