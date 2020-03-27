@@ -14,3 +14,4 @@
 * [1-1] 인프런: [Stanford iOS 한글자막 강의](https://www.inflearn.com/course/stanford-ios-%ED%95%9C%EA%B8%80%EC%9E%90%EB%A7%89-%EA%B0%95%EC%9D%98/dashboard)
 * [1-2] 인프런: [야곰의 iOS 프로그래밍](https://www.inflearn.com/course/ios-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D/dashboard)
 ## Section2. Swift 문법 정리
+* [2-1] 야곰의 iOS 프로그래밍 강좌 복습 문법
