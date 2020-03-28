@@ -58,3 +58,6 @@
   * 사용자에게 당연한 것이 누군가의 피땀눈물..
   * 제스처를 어떻게 사용하는 지는 H.I.G 문서의 gesture 파트 참고하기
   * 이미 존재하는 Gesture Recognizer 중 원하는 것이 없다면 UIGestureRecognizer 클래스를 상속받아 나만의 제스처 생성 가능!
+* 마크 주석과 마크업 주석을 잘 활용할 것!
+  * 마크업 주석을 통해 정보를 전달 가능
+  * [애플의 마크업 포맷팅 문서](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html) 참고하기
