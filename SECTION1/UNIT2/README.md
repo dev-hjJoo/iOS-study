@@ -3,7 +3,7 @@
 <pre>선행과목을 이수했지만, iOS 프로그래밍 강좌를 들으며 어렵거나 어색하게 느끼는 부분들을 다시 공부할 것!
 <b>SECTION2 디렉토리</b>에 별도 저장할 것. </pre>
 
-## 1번-프로젝트: 웹 브라우저 만들기
+## ✰ 1번-프로젝트: 웹 브라우저 만들기
 ### 학습 내용
 #### Xcode를 이용하여 화면 구성
 * 툴바, 툴바 버튼, 웹 브라우저, 액티비티 인디케이터
@@ -15,7 +15,7 @@
 <b> 복습할 문법</b>
 * 함수 표현, guard 구문, as 연산자, extension
 </pre>
-## 2번-프로젝트: 내 소개 애플리케이션
+## ✰ 2번-프로젝트: 내 소개 애플리케이션
 > 애플은 사용자 경험, 즉 UX를 중요시 함.
 ### 학습 내용
 #### 인터페이스 빌더로 레이아웃 구성하기
@@ -47,7 +47,7 @@
 * H.I.G. 문서 정독하기
 * 야곰님 보충 자료 참고하기
 </pre>
-## 3번-프로젝트: Up-down Game
+## ✰ 3번-프로젝트: Up-down Game
 ### 학습 내용
 * <b>Command + Shift + o</b> 단축키를 이용하여 원하는 파일을 빠르게 열자!
   * 그리고 <b>Option + Enter</b>를 누르면 Assistant Editor로 화면이 분할되어 보임!
@@ -69,7 +69,7 @@
 * 코드 중간에 ... 표시는 뭘까?
   ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha</b> (in 4-ColorPicker/ViewController.swift)
 </pre>
-## 4번-프로젝트: Color-peaker application
+## ✰ 4번-프로젝트: Color-peaker application
 * 억음부호(`, backticks)
   * 주로 존재하는 키워드와 동일한 이름을 사용할 때 사용 (상수와 변수)
   * 사용하고자 하는 키워드 앞 뒤로 붙이기
@@ -88,7 +88,9 @@
 * StackView를 사용할 때에는 AutoLayout에서 말하는 "컨텐츠 고유 크기"를 잘 이해하고 있어야 함.
   * 예제에서 살펴봤던 Slider는 "세로의 길이"를 컨텐츠 고유 크기로 갖고 있음
     * 가로 길이는 가변적이지만, 세로 길이는 강제로 지정해주지 않는 한 일정한 길이를 갖게 됨
-  * AutoLayout 가이드로 컨텐츠 고유 크기에 대해 알아둘 것
+  * Auto Layout Guide에서 컨텐츠 고유 크기와 Dynamic StackView에 대해 살펴볼 것
+* StackView는 컨텐츠 고유 크기와 View 사이의 거리 간격을 가지고 View를 쌓아 배치
+* Auto Layout과 StackView는 연습이 많이 필요하니 관련 내용이 나오면 관련 문서를 보며 이해해나갈 것!
 #### UIPickerView
 * 흔히 쓰는 날짜 Picker는 UIDatePicker 클래스를 참조하니 필요시 공부해보기~!
 * 가로 영역인 <b>Component</b>와 세로 영역인 <b>row</b>(컴포넌트의 한줄씩 있는 영역)로 구분
