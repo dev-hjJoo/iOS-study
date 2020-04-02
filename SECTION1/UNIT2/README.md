@@ -69,6 +69,13 @@
   * 주로 존재하는 키워드와 동일한 이름을 사용할 때 사용 (상수와 변수)
   * 사용하고자 하는 키워드 앞 뒤로 붙이기
 * View - tag
+  * viewWithTag() 메서드
+    * 해당 뷰 컨트롤러의 하위 뷰를 순회하며 전달받은 태그 값을 가진 뷰를 찾아 반환하는 메서드
+    * 하위 뷰가 많아질수록 호출 횟수가 많아져 성능이 떨어질 가능성이 있음
+    * 자주 쓰는 코드라면 view를 IBOutlet 프로퍼티로 할당을 하거나 일반 프로퍼티로 할당해주어서 사용하는 것이 좋음
 * UIControlEvents
 * [UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
 * Delegation Programming Design Pattern
+### 도전 과제 
+> 4-1-Challenge-ColorPicker
+* 이번 프로젝트를 colorView와 pickerView(@IBOutlet) 없이 태그를 활용하여 동작하도록 구현해보기
