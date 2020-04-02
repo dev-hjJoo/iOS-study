@@ -63,7 +63,7 @@
   * [애플의 마크업 포맷팅 문서](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html) 참고하기
 ### 복습할 내용
 * 코드 중간에 ... 표시는 뭘까?
-  * ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha<b> (in 4-ColorPicker/ViewController.swift) </b>
+  * ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha</b> (in 4-ColorPicker/ViewController.swift)
 ## 4번-프로젝트: Color-peaker application
 * 억음부호(`, backticks)
   * 주로 존재하는 키워드와 동일한 이름을 사용할 때 사용 (상수와 변수)
