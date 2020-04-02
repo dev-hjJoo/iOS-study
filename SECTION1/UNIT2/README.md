@@ -64,3 +64,11 @@
 ### 복습할 내용
 * 코드 중간에 ... 표시는 뭘까?
   * ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha<b> (in 4-ColorPicker/ViewController.swift)
+## 4번-프로젝트: Color-peaker application
+* 억음부호(`, backticks)
+  * 주로 존재하는 키워드와 동일한 이름을 사용할 때 사용 (상수와 변수)
+  * 사용하고자 하는 키워드 앞 뒤로 붙이기
+* View - tag
+* UIControlEvents
+* [UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
+* Delegation Programming Design Pattern
