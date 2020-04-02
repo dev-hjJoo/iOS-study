@@ -1,6 +1,7 @@
 # 야곰의 iOS 프로그래밍
 * 선행과목 : [야곰의 스위프트 기본 문법 강좌](https://www.inflearn.com/course/%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EA%B8%B0%EB%B3%B8-%EB%AC%B8%EB%B2%95/)
-> 선행과목을 이미 이수했지만, iOS 프로그래밍 강좌를 들으며 생소하게 느끼는 부분들을 <b>SECTION2 디렉토리</b>에 별도 저장할 것.
+<pre>선행과목을 이수했지만, iOS 프로그래밍 강좌를 들으며 어렵거나 어색하게 느끼는 부분들을 다시 공부할 것!
+<b>SECTION2 디렉토리</b>에 별도 저장할 것. </pre>
 
 ## 1번-프로젝트: 웹 브라우저 만들기
 ### 학습 내용
@@ -10,11 +11,10 @@
 * 커넥션 인스펙터를 통한 버튼과 컨트롤러 연결
 * 화면 정렬 및 구성하기
 * 어트리뷰트 인스펙터를 통해 오브젝트 모양 및 색상 변경
-### 복습할 문법
-* 함수 표현
-* guard 구문
-* as 연산자
-* extension
+<pre>
+<b> 복습할 문법</b>
+* 함수 표현, guard 구문, as 연산자, extension
+</pre>
 ## 2번-프로젝트: 내 소개 애플리케이션
 > 애플은 사용자 경험, 즉 UX를 중요시 함.
 ### 학습 내용
@@ -42,10 +42,11 @@
   * 시뮬레이션이 실행 중인 상태에서 디버그 영역에 Debug View Hierarchy 누르면 화면의 상태를 알 수 있음
   * 가장 밑바닥의 검은색 화면 = Window -> View -> 다양한 화면 구성
   * 이에 대한 가이드라인 = View Programming Guide
-### 복습할 내용
+<pre> <b>복습할 내용</b>
 * Auto Layout 설정하기
 * H.I.G. 문서 정독하기
 * 야곰님 보충 자료 참고하기
+</pre>
 ## 3번-프로젝트: Up-down Game
 ### 학습 내용
 * <b>Command + Shift + o</b> 단축키를 이용하여 원하는 파일을 빠르게 열자!
@@ -61,9 +62,11 @@
 * 마크 주석과 마크업 주석을 잘 활용할 것!
   * 마크업 주석을 통해 정보를 전달 가능
   * [애플의 마크업 포맷팅 문서](https://developer.apple.com/library/archive/documentation/Xcode/Reference/xcode_markup_formatting_ref/index.html) 참고하기
-### 복습할 내용
+<pre>
+<b>복습할 내용</b>
 * 코드 중간에 ... 표시는 뭘까?
-  * ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha</b> (in 4-ColorPicker/ViewController.swift)
+  ex) <b>ViewTag.sliderRed...ViewTag.sliderAlpha</b> (in 4-ColorPicker/ViewController.swift)
+</pre>
 ## 4번-프로젝트: Color-peaker application
 * 억음부호(`, backticks)
   * 주로 존재하는 키워드와 동일한 이름을 사용할 때 사용 (상수와 변수)
@@ -73,9 +76,31 @@
     * 해당 뷰 컨트롤러의 하위 뷰를 순회하며 전달받은 태그 값을 가진 뷰를 찾아 반환하는 메서드
     * 하위 뷰가 많아질수록 호출 횟수가 많아져 성능이 떨어질 가능성이 있음
     * 자주 쓰는 코드라면 view를 IBOutlet 프로퍼티로 할당을 하거나 일반 프로퍼티로 할당해주어서 사용하는 것이 좋음
-* UIControlEvents
+* [UIControlEvents](https://developer.apple.com/documentation/uikit/uicontrolevents?language=occ)
+  * 모든 종류의 이벤트 목록을 보고 싶다면 개발자 문서로~! (위에 링크)
+  * Control마다 어떤 이벤트를 catch 할 수 있는 지 확인해보는 것도 좋음
+* IBAction 메서드
+  * 메서드를 어디서 호출한 건 지 아는 방법? 바로 "<b>sender</b>" 매개변수
+    * sender.tag/ sender.value 등을 이용
 * [UIStackView](https://developer.apple.com/documentation/uikit/uistackview)
+* UIPickerView
+  * 흔히 쓰는 날짜 Picker는 UIDatePicker 클래스를 참조하니 필요시 공부해보기~!
+  * 가로 영역인 <b>Component</b>와 세로 영역인 <b>row</b>(컴포넌트의 한줄씩 있는 영역)로 구분
+    * 둘 다 0부터 시작, 좌표로 위치를 표시할 수 있음.
+    * Component와 Row 개수는 프로그래머가 임의로 조절 가능
+    * 다만, 다른 컨트롤과는 다르게 인터페이스 빌더에서 Component/Row의 개수, 인터페이스의 초기값 지정 불가
+      * 이는 Delegate Design Pattern을 참고!
+> Delegation: "위임", "위임하다(delgate)"/ 자신이 할일을 다른 객체에게 위임하는 형태
 * Delegation Programming Design Pattern
-### 도전 과제 
+  * 이 프로젝트에서는 PicerView 객체를 ViewController 객체에게 delegate
+  * DataSource 메서드, Delegate 메서드 (like 비서)
+    * DataSource: PickerView가 화면에 표현해줄 데이터의 기반을 DataSource의 객체에게 맡겨두고 가져올 때 사용
+    * PickerView라는 매개변수로 자신을 밝히는 이유
+      * ViewController가 데이터를 제공해야 하는 객체가 여러 개 일 수 있으므로 누가 보냈는 지 알아야 함
+    * 즉, 위임받은 일을 적절히 처리하거나 그에 맞는 값을 반환하는 일을 하는 약속
+<pre>
+<b>도전 과제 </b>
 > 4-1-Challenge-ColorPicker
 * 이번 프로젝트를 colorView와 pickerView(@IBOutlet) 없이 태그를 활용하여 동작하도록 구현해보기
+* pickerView의 row 사이값을 5로 변경해
+</pre>
