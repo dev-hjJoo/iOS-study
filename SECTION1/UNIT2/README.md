@@ -127,6 +127,6 @@
 > 구조화된 데이터를 스위프트 타입의 인스턴스로 디코딩, 그리고 그 반대의 인코딩
 #### MVC Programming Design Pattern
 > iOS 프레임워크의 큰 근간을 이루는 MVC 패턴
-* [Notion](https://www.notion.so/MVC-MVP-MVVM-7350ba0b3dcc4da6b3a78992bb08b372)에 정리 중!
+* [Notion_MVC-Pattern](https://www.notion.so/MVC-Design-Pattern-176300768f914c0991c43bb03ab55864)에 정리 중!
 <pre>
 </pre>
