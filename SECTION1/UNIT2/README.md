@@ -112,3 +112,21 @@
 * 이번 프로젝트를 colorView와 pickerView(@IBOutlet) 없이 태그를 활용하여 동작하도록 구현해보기
 * pickerView의 row 사이값을 5로 변경하기
 </pre>
+
+## ✰ 5번-프로젝트: 반려동물 소개 애플리케이션
+### 학습 내용
+#### View Transition
+> iOS 환경에서 화면을 전환하는 두 가지 방법
+* Present Modally
+* Navigation
+#### Asset Catalog
+> 다양한 데이터 리소스를 관리
+#### Property List
+> 데이터를 구조화해서 표현할 수 있는 방법
+#### Swift - Codable
+> 구조화된 데이터를 스위프트 타입의 인스턴스로 디코딩, 그리고 그 반대의 인코딩
+#### MVC Programming Design Pattern
+> iOS 프레임워크의 큰 근간을 이루는 MVC 패턴
+* [Notion](https://www.notion.so/MVC-MVP-MVVM-7350ba0b3dcc4da6b3a78992bb08b372)에 정리 중!
+<pre>
+</pre>
