@@ -1,6 +1,6 @@
 # Swift 문법
 ## Unit1. Stanford iOS 한글자막 강의
-* 1-1. 계산기 기초 /Calculator basic
+* 1-1. 계산기 기초 /Calculator basic 👈
 * 1-2. 계산기 심화 /<b>Imporved</b> Calculator (contain MVC pattern)
 * 1-3. 스위프트 문법 /Swift grammar (basic)
 * 1-4. 얼굴 앱 제작 /Face Application
@@ -16,7 +16,7 @@
 * 2-2. 내 소개 애플리케이션
 * 2-3. 업 다운 게임 제작
 * 2-4. 컬러 피커
-* 2-5. 반려동물 소개
+* 2-5. 반려동물 소개 👈
 * 2-6. 로그인 페이지
 * 2-7. 심리테스트 앱
 * 2-8. 할 일 관리 앱
