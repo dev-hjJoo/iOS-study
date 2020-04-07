@@ -228,7 +228,7 @@
 - info.plist에 대한 내용을 문서로 읽어볼 것 추천
    - 애플 앱 스토어에 출시할 때 신경을 많이 써야 할 부분!
 </pre>
-#### Swift - Codable
+#### Swift - Codable (중요)
 > 구조화된 데이터를 스위프트 타입의 인스턴스로 디코딩, 그리고 그 반대의 인코딩
 * 스위프트 언어의 기능 (Decodable/ Encodable 프로토콜)
 * 데이터 에셋의 plist 데이터를 AnimalInfo라는 스위프트 타입의 인스턴스로 변환 가능하게 함
@@ -238,6 +238,7 @@
 <b>프로토콜 문서 읽기</b>
 * Protocol Default Implementation
 * Protocol Oriented Programming
+* Encoding & Decoing custom type article
 </pre>
 #### MVC Programming Design Pattern
 > iOS 프레임워크의 큰 근간을 이루는 MVC 패턴
