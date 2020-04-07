@@ -1,4 +1,4 @@
-# Swift 문법
+# Swift 문법을 이용한 iOS 강좌
 ## Unit1. Stanford iOS 한글자막 강의
 * 1-1. 계산기 기초 /Calculator basic 👈
 * 1-2. 계산기 심화 /<b>Imporved</b> Calculator (contain MVC pattern)
