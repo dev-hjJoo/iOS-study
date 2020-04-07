@@ -230,7 +230,15 @@
 </pre>
 #### Swift - Codable
 > 구조화된 데이터를 스위프트 타입의 인스턴스로 디코딩, 그리고 그 반대의 인코딩
-* 스위프트 언어의 기능 (프로토콜)
+* 스위프트 언어의 기능 (Decodable/ Encodable 프로토콜)
+* 데이터 에셋의 plist 데이터를 AnimalInfo라는 스위프트 타입의 인스턴스로 변환 가능하게 함
+* AnimalInfo 생성 시 프로토콜을 채택만 하고 프로토콜을 준수하도록 하는 기능 구현하지 않음
+  * 왜냐! 기본 구현이 되어있기 때문
+<pre>
+<b>프로토콜 문서 읽기</b>
+* Protocol Default Implementation
+* Protocol Oriented Programming
+</pre>
 #### MVC Programming Design Pattern
 > iOS 프레임워크의 큰 근간을 이루는 MVC 패턴
 * [Notion_MVC-Pattern](https://www.notion.so/MVC-Design-Pattern-176300768f914c0991c43bb03ab55864)에 정리 중!
