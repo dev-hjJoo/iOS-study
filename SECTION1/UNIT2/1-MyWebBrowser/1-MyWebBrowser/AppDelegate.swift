@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import WebKit
 
 // 마지막 페이지 주소를 UserDefaults에서 관리하기 위한 키 값
 let lastPageURLDefaultKey: String = "lastURL"
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate{
 
 
     // MARK: - Properties
