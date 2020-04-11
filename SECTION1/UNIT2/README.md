@@ -9,6 +9,32 @@
 </pre>
 > [Notion: 야곰의 iOS 프로그래밍 강좌 정리 노트](https://www.notion.so/iOS-592776e76db14917ae3dfb79d0fbd230)
 ## ✰ 1번-프로젝트: 웹 브라우저 만들기
+### STEP 1. UI View 구성하기
+<img src="./img/1-myWebBrowser-UI.png" width="600px" height="400px"></img>
+#### 필요 요소
+* Navigation Controller 연결
+* WebKit View 추가
+* ToolBar에 Bar Button Item, Flexible Space Bar Button Item 추가
+* Activity Indicator
+> 각각 Attribute Inspector를 통해 적절한 모양 및 색상으로 변경, 적절히 Constrains 설정
+### STEP 2. 코드 작성하기
+* 코드에 대한 내용을 아직 해석하는 것이 어려움
+* 처음 코드 작성했을 때 잘 실행되던 것이 오류가 났는데 이유를 찾을 수 없음
+* 코드 내용에 대해 추후 설명을 
+### STEP 3. View와 Controller 연결하기
+* Connection Inspector를 통해 연결
+#### 연결 요소
+> View Controller에서 변수 및 메서드 앞 동그라미가 채워졌는 지 확인
+* Activity Indicator
+* WebKit View
+* Recived Actions 3 항목
+<pre>
+<b>[복습할 문법]</b>
+* 함수 표현
+* guard 구문
+* as 연산자
+* extension
+</pre>
 ## ✰ 2번-프로젝트: 내 소개 애플리케이션
 ## ✰ 3번-프로젝트: Up-down Game
 ## ✰ 4번-프로젝트: Color-peaker application
